@@ -1,0 +1,12 @@
+gsm.product.countrycode=JP
+persist.sys.locale=ja-JP
+persist.sys.language=jp
+persist.sys.country=JP
+ro.odm.lenovo.region=PRC
+ro.config.lgsi.region=PRC
+ro.config.zui.devicetype=PAD
+ro.product.locale=ja-JP
+ro.product.locale.language=ja
+ro.product.locale.region=JP
+ro.localization.locale_filter=^(ja|en).*
+

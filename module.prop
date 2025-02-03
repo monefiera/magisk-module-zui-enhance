@@ -1,0 +1,7 @@
+id=legion-zui16-conv
+name=Patch for Legion Tab Y700 Gen3
+version=v1.0
+versionCode=10
+author=MONE FIERA
+description=Some Fix ZUI for TB321FU_PRC
+updateJson=https://raw.githubusercontent.com/monefiera/magisk-module-zui-enhance/master/update.json
