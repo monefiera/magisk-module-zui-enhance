@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.zui.calendar">
+        <permission name="android.permission.READ_CALENDAR" fixed="false"/>
+        <permission name="android.permission.WRITE_CALENDAR" fixed="false"/>
+	<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+	<permission name="android.permission.READ_CONTACTS" fixed="false"/>
+	<permission name="android.permission.READ_SMS" fixed="false"/>
+	<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+	<permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+	<permission name="android.permission.READ_MEDIA_VIDEO" fixed="false"/>
+    </exception>
+</exceptions>
