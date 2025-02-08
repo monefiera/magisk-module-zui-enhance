@@ -23,7 +23,6 @@ REPLACE="
 /system/vendor/etc/perf/testtargetresourceconfigs.xml
 "
 PACKAGES="
-com.android.packageinstaller
 "
 
 # Taken from unlock-cn-gms
@@ -31,6 +30,9 @@ com.android.packageinstaller
 
 pm enable com.google.android.gms
 pm enable com.google.android.gsf
+pm enable com.android.vending
+pm enable com.google.android.onetimeinitializer
+pm enable com.google.android.partnersetup
 
 if [ -e /system/etc/permissions/services.cn.google.xml ]; then
     origin=/system/etc/permissions/services.cn.google.xml
@@ -88,8 +90,6 @@ pm disable-user --user 0 com.zui.contacts
 pm disable-user --user 0 com.zui.filemanager
 pm disable-user --user 0 com.zui.clone
 pm disable-user --user 0 com.lenovo.leos.cloud.sync
-
-settings put system system_locales ja-JP
 
 set_perm_recursive $MODPATH 0 0 0755 0644
 set_perm $MODPATH 0 0 0644
