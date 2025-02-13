@@ -1,5 +1,5 @@
 # magisk-module-zui-enhance
-**Anyfix Module for TB321FU to use CN_ZUI**<br>
+**Anyfix Module for TB321FU to use CN_ZUI for Japanese**<br>
 TB321FU_PRC v16.1.11.132向けの日本語快適&最適化モジュールです、作成中<br>
 
 Legion Tab Y700 Gen3以外には対応していませんのでご注意ください<br>
@@ -14,4 +14,4 @@ Not supported except Legion Tab Y700 Gen3<br>
 
 ## Todo
 - Android システムの完全日本語化
-
+- 一部アプリをインストールしている際にシステムアプリ化する(Scene8とAurora Storeを予定)
