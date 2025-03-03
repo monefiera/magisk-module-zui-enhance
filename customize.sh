@@ -27,7 +27,6 @@ PACKAGES="
 
 # Taken from unlock-cn-gms
 # Credit: feike https://github.com/fei-ke/unlock-cn-gms/
-
 pm enable com.google.android.gms
 pm enable com.google.android.gsf
 pm enable com.android.vending
@@ -84,12 +83,50 @@ sed -i '/services_updater/d' $heytap_cn_features_target
 ui_print "modify $heytap_cn_features_orgin"
 fi
 
+
+# Set Japanese Launguage
+
+settings put system system_locales ja-JP;
+
+
+# Switch to some apps to system-app
+
+if [ -d /data/app/*'=='/'com.omarea.vtools'*'==' ]; then
+mkdir -p $MODPATH/system/app/com.omarea.vtools
+cp -r /data/app/*'=='/'com.omarea.vtools'*'=='/* $MODPATH/system/app/com.omarea.vtools/
+fi
+
+if [ -d /data/app/*'=='/'com.aurora.store'*'==' ]; then
+mkdir -p $MODPATH/system/app/com.aurora.store
+cp -r /data/app/*'=='/'com.aurora.store'*'=='/* $MODPATH/system/app/com.aurora.store/
+fi
+
+# Add denylist Google Apps to achieve MEETS_BASIC_INTEGRITY and avoid defects caused by font modules
+
+magisk --denylist add com.android.vending com.android.vending
+magisk --denylist add com.android.vending com.android.vending:background
+magisk --denylist add com.android.vending com.android.vending:instant_app_installer
+magisk --denylist add com.android.vending com.android.vending:quick_launch
+magisk --denylist add com.android.vending com.android.vending:recovery_mode
+magisk --denylist add com.android.vending com.google.android.finsky.verifier.apkanalysis.service.ApkContentsScanService
+magisk --denylist add com.google.android.gms com.google.android.gms
+magisk --denylist add com.google.android.gms com.google.android.gms.feedback
+magisk --denylist add com.google.android.gms com.google.android.gms.learning
+magisk --denylist add com.google.android.gms com.google.android.gms.persistent
+magisk --denylist add com.google.android.gms com.google.android.gms.remapping1
+magisk --denylist add com.google.android.gms com.google.android.gms.room
+magisk --denylist add com.google.android.gms com.google.android.gms.ui
+magisk --denylist add com.google.android.gms com.google.android.gms.unstable
+magisk --denylist add com.google.android.gms com.google.android.gms:car
+magisk --denylist add com.google.android.gms com.google.android.gms:identitycredentials
+magisk --denylist add com.google.android.gms com.google.android.gms:snet
+
 # Disable some apps cannnot replace
 
-pm disable-user --user 0 com.zui.contacts
-pm disable-user --user 0 com.zui.filemanager
-pm disable-user --user 0 com.zui.clone
-pm disable-user --user 0 com.lenovo.leos.cloud.sync
+pm disable-user --user 0 magisk --denylist add com.zui.contacts
+pm disable-user --user 0 magisk --denylist add com.zui.filemanager
+pm disable-user --user 0 magisk --denylist add com.zui.clone
+pm disable-user --user 0 magisk --denylist add com.lenovo.leos.cloud.sync
 
 set_perm_recursive $MODPATH 0 0 0755 0644
 set_perm $MODPATH 0 0 0644

@@ -1,3 +1,4 @@
+ro.product.model=Legion Tab Y700
 gsm.product.countrycode=JP
 persist.sys.locale=ja-JP
 persist.sys.language=jp
@@ -9,4 +10,4 @@ ro.product.locale=ja-JP
 ro.product.locale.language=ja
 ro.product.locale.region=JP
 ro.localization.locale_filter=^(ja|en).*
-
+ro.vendor.config.lgsi.en.market_name=Legion Tab Y700
