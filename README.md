@@ -11,7 +11,7 @@ Not supported except Legion Tab Y700 Gen3<br>
 ## Features
 - Googleサービスの自動有効化&QuickShareなどのアンロック
 - [limzei89氏の調査](https://note.com/limzei89/n/n2a6ddb4455d5)を参考にした中華アプリの無効化&アンインストール
-- 一部アプリの日本語化(セキュリティ、標準ファイルを日本語化。一部ガバ翻訳ですがすみません💦)
+- 一部アプリの日本語化(セキュリティ、標準ファイルアプリを日本語化。一部ガバ翻訳ですがすみません💦)
 - v16.1.11.072以降の熱制御修正、ゲーム時のGPUクロック制限の無効化([協力者](https://t.me/Rakkashin))
 - Scene8とAurora Storeがインストールされている際に、こいつらをシステムアプリ化する
  
