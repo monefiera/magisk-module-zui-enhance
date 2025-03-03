@@ -2,10 +2,10 @@
 **Anyfix Module for TB321FU to use CN_ZUI for Japanese**<br>
 TB321FU_PRC v16.1.11～向けの日本語快適&最適化モジュールです、鋭意作成中<br>
 
-[UnfuckZUI](https://github.com/Xposed-Modules-Repo/xyz.cirno.unfuckzui)との同時使用を想定して作成しています。
+[UnfuckZUI](https://github.com/Xposed-Modules-Repo/xyz.cirno.unfuckzui)との同時使用を想定して作成しています<br>
 Legion Tab Y700 Gen3以外には対応していませんのでご注意ください<br>
 
-I created this module to be used in conjunction with UnfuckZUI.
+I created this module to be used in conjunction with UnfuckZUI<br>
 Not supported except Legion Tab Y700 Gen3<br> 
 
 ## Features
