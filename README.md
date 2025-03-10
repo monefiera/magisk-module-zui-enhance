@@ -10,12 +10,12 @@ Not supported except Legion Tab Y700 Gen3, sorry<br>
 
 ## Features
 - [limzei89氏の調査](https://note.com/limzei89/n/n2a6ddb4455d5)を参考にした中華アプリの無効化&アンインストール
-- 上記の副次効果として、Amazon Music等のアプリもインストール可能になっています。
+- 上記の副次効果として、[Amazon Music等のアプリもインストール可能](https://note.com/limzei89/n/ndd9e7cc3999a)になっています。
 - v16.1.11.072以降の熱制御修正、ゲーム時のGPUクロック制限の無効化([協力者](https://t.me/Rakkashin))
 - Androidシステム、セキュリティアプリ、標準ファイラー&インストーラの完全日本語化
-- Googleサービスの自動有効化&QuickShareなどのアンロック
+- Googleサービスの自動有効化&[Quick Share](https://support.google.com/android/answer/13801258?hl=ja)などのアンロック
 - LeCloudへのログインを促す設定トップウィンドウの削除
-- Scene8とAurora Storeがインストールされている際に、こいつらをシステムアプリ化する
+- [Scene8](http://vtools.omarea.com)と[Aurora Store](https://auroraoss.com)がインストールされている際に、こいつらをシステムアプリ化する
 - その他、作者が気になった箇所(日付表記が変、端末情報の表示部分など)の修正
 
 ## Todo
