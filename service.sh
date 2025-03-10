@@ -1,1 +1,0 @@
-settings put system system_locales ja-JP

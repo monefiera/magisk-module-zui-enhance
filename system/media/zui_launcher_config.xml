@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<item name="current_layout_config_key" value="6x4"/>
+<item name="cloud_folder_feature_enable" value="true"/>
+<item name="overlay_screen_version" value="google"/>
+</config>
