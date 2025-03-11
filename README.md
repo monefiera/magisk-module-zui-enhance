@@ -15,9 +15,8 @@ Not supported except Legion Tab Y700 Gen3, sorry<br>
 - Androidシステム、セキュリティアプリ、標準ファイラー&インストーラの完全日本語化
 - Googleサービスの自動有効化&[Quick Share](https://support.google.com/android/answer/13801258?hl=ja)などのアンロック
 - LeCloudへのログインを促す設定トップウィンドウの削除
-- [Scene8](http://vtools.omarea.com)と[Aurora Store](https://auroraoss.com)がインストールされている際に、こいつらをシステムアプリ化する
-- その他、作者が気になった箇所(日付表記が変、端末情報画面など)の修正
+- Googleサービスの自動有効化&QuickShareなどのアンロック
+- Scene8とAurora Storeがインストールされている際に、こいつらをシステムアプリ化する
 
 ## Todo
-- ~~規制情報部分に日本等の技適情報を追加~~
-- 他、今のところは無し(不具合や日本語化してるとこでおかしい箇所あればお教えください💦)
+- 今のところ無し(不具合や日本語化してるとこでおかしい箇所あればお教えください💦)
